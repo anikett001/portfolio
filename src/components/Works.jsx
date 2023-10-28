@@ -1,7 +1,7 @@
 import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, liveDemo } from "../assets";
 import { wrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -12,7 +12,8 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  sourse_code_link,
+  source_code_link,
+  live_demo,
 }) => {
   return (
     <motion.div varients={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -30,17 +31,27 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className=" absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => {
-                window.open("https://www.linkedin.com/in/aniket-tyagi-252015212/", "_blank");
-              }}
-              className=" black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          <div className=" absolute inset-0 flex justify-end mt-1 gap-3 card-img_hover">
+          <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
+
               <img
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          <div
+              onClick={() => window.open(live_demo, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+
+              <img
+                src={liveDemo}
+                alt="liveDemo"
+                className="w-full h-full rounded-full object-contain"
               />
             </div>
           </div>
@@ -82,7 +93,7 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} {...project}  />
         ))}
       </div>
     </>

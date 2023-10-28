@@ -31,7 +31,7 @@ const Navbar = () => {
             className="w-7 h-7 flex-row "
             onClick={() => {
               window.open(
-                "https://www.linkedin.com/in/aniket-tyagi-252015212/"
+                "https://www.linkedin.com/in/anikettyagi-/"
               );
             }}
             src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png"

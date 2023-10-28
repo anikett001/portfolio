@@ -12,17 +12,11 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  fogon,
   threejs,
+  moviexWeb,
+  fogonWeb,
+  personalWeb,
 } from "../assets";
 
 export const navLinks = [
@@ -100,90 +94,41 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
-
+ 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web App Developer (Freelance)",
+    company_name: "Fogon (A restaurants chain)",
+    icon: fogon, // fogon icon
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "* Developing and Showcasing web application prototype using React.js, firebase, Tailwind CSS, Redux Toolkit ,node JS , yarn .",
+      "* Implementing CRUD operations for the admin, directly from the web app .",
+      "* Implementing responsive design and ensuring great User Interface.",
+      "* Fetching data from firebase and showing data on our website",
+      "* Hosting the website to insure that it's functioning properly ",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Aniket tyagi",
+    name: "Nikhil Sharad",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Microsoft ",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Anshika Tyagi",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Clearwater Analytics",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -198,67 +143,76 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Moviflix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that enables users to search for any Movie or TV Show of their choice by filtering out it by their choice of Genres, ratings, popularity and release date .",
+      
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
+        color: "white-gradient",
       },
       {
         name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
         color: "green-text-gradient",
       },
+      
+    ],
+    image: moviexWeb,
+    source_code_link: "https://github.com/Anikettyagi007/movie",
+    live_demo: "https://www.facebook.com/" ,
+  },
+  {
+    name: "FOGON",
+   
+    description:
+      "Web-based platform that allows users to order any food from fogon, look at menu, add different item on their cart and select different dishes from chinese, indian, staters, veg to non-veg .",
+    tags: [
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "white-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    
+    image: fogonWeb,
+    
+    source_code_link: "https://github.com/Anikettyagi007/Fogon",
+    live_demo: "https://www.google.com/" ,
+  },
+ 
+  {
+    name: "Portfolio ",
+    description:
+      "A comprehensive and beautiful Web application which Showcase My Work, Skills, techstack I have worked on, my Projects, my Work experience and some cool animations using Three.Js  ",
+    tags: [
+      {
+        name: "Three.Js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "white-gradient",
+      },
+      {
+        name: "Email.Js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: personalWeb,
+    source_code_link: "https://github.com/Anikettyagi007/portfolio",
+    live_demo: "https://leetcode.com/Aniket_Tyagi_/" ,
   },
 ];
 

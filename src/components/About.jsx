@@ -43,7 +43,7 @@ const About = () => {
       <motion.p 
       variants={fadeIn("","",0.1,1)}
       className=' mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with Experience in JavaScript and TypeScript, and expertise in frameworks like React, Node.js, MongoDB, GitHub, Firebase and Three.js. <br /> I'm passionate about Programming. I believe the learning never ends and I imbibe skills on job and implement them to be a better programmer. I aspire to be proficient in Object Oriented Design, analysis and programming.
+        I'm a skilled software developer with Experience in JavaScript , TypeScript and expertise in frameworks like React, Node.js, MongoDB, GitHub, Firebase and Three.js. <br /> I'm passionate about Programming. I believe the learning never ends and I imbibe skills on job and implement them to be a better programmer. I aspire to be proficient in Object Oriented Design, analysis and programming.
       </motion.p>
       <div className= 'mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

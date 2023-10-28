@@ -7,7 +7,19 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
+
+// Project Cover Img
+import fogonWeb from "./company/fogonWeb.png";
+import personalWeb from "./company/personalWeb.png";
+import moviexWeb from "./company/moviexWeb.png";
+
+
+
+
+
 import css from "./tech/css.png";
+import liveDemo from "./tech/liveDemo.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -23,7 +35,7 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import fogon from "./company/fogon.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -54,9 +66,13 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  fogon,
   tesla,
   carrent,
   jobit,
   tripguide,
+  liveDemo,
+  moviexWeb,
+  personalWeb,
+  fogonWeb,
 };
