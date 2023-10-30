@@ -212,7 +212,7 @@ const projects = [
     ],
     image: personalWeb,
     source_code_link: "https://github.com/Anikettyagi007/portfolio",
-    live_demo: "https://anikettyagi2023.vercel.app/" ,
+    live_demo: "https://anikettyagi.vercel.app/" ,
   },
 ];
 
