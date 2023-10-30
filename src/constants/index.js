@@ -164,7 +164,7 @@ const projects = [
     ],
     image: moviexWeb,
     source_code_link: "https://github.com/Anikettyagi007/movie",
-    live_demo: "https://www.facebook.com/" ,
+    live_demo: "https://movieflix2023.vercel.app/" ,
   },
   {
     name: "FOGON",
@@ -189,7 +189,7 @@ const projects = [
     image: fogonWeb,
     
     source_code_link: "https://github.com/Anikettyagi007/Fogon",
-    live_demo: "https://www.google.com/" ,
+    live_demo: "https://fogon2023.vercel.app/" ,
   },
  
   {
@@ -212,7 +212,7 @@ const projects = [
     ],
     image: personalWeb,
     source_code_link: "https://github.com/Anikettyagi007/portfolio",
-    live_demo: "https://leetcode.com/Aniket_Tyagi_/" ,
+    live_demo: "https://anikettyagi2023.vercel.app/" ,
   },
 ];
 
