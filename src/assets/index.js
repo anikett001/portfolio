@@ -41,8 +41,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import shigrD from "./shigrD.png";
+import shigrL from "./shigrL.png";
+
 
 export {
+  shigrD,
+  shigrL,
   logo,
   backend,
   creator,

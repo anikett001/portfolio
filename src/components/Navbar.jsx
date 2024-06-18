@@ -41,7 +41,7 @@ const Navbar = () => {
           <img
             className="w-7 h-7 rounded-xl flex-row gap-10  "
             onClick={() => {
-              window.open("https://github.com/Anikettyagi007");
+              window.open("https://github.com/anikett001");
             }}
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt=""
@@ -52,7 +52,7 @@ const Navbar = () => {
             onClick={() => {
               window.open("https://leetcode.com/Aniket_Tyagi_/");
             }}
-            src="https://camo.githubusercontent.com/d7ddc9e6d6ac3920413af4a96199dd4d3cf99fe1906de047904189675cf94f6e/68747470733a2f2f63646e2e69636f6e73636f75742e636f6d2f69636f6e2f667265652f706e672d3531322f6c656574636f64652d333632383838352d333033303032352e706e67"
+            src="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png"
             alt=""
           />
           {/* <Link onClick={()=>{

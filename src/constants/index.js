@@ -6,6 +6,8 @@ import {
   javascript,
   typescript,
   html,
+  shigrD,
+  shigrL,
   css,
   reactjs,
   redux,
@@ -44,13 +46,13 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
     title: "Full Stack Developer",
     icon: creator,
   },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  }
 ];
 
 const technologies = [
@@ -98,20 +100,33 @@ const technologies = [
  
 const experiences = [
   {
+    title: "Software Developer Intern",
+    company_name: "Shigr Logistics",
+    icon: shigrL, // logo
+    iconBg: "#383E56",
+    date: "March 2024 - June 2024",
+    points: [
+      "* Developed a responsive web app with Java, HTML, and CSS to enhance operational efficiency and customer engagement",
+      "* Utilized Java for backend development, ensuring robust and scalable application performance",
+      "* Implementing responsive design and ensuring great User Interface.",
+      "* Optimized performance, reducing page load times by 30% through code improvements",
+      "* Collaborated with teams to gather requirements, test, and integrate with existing systems.",
+    ],
+  },
+  {
     title: "Web App Developer (Freelance)",
     company_name: "Fogon (A restaurants chain)",
     icon: fogon, // fogon icon
     iconBg: "#383E56",
-    date: "April - September 2023",
+    date: "December 2023",
     points: [
-      "* Developing and Showcasing web application prototype using React.js, firebase, Tailwind CSS, Redux Toolkit ,node JS , yarn .",
-      "* Implementing CRUD operations for the admin, directly from the web app .",
-      "* Implementing responsive design and ensuring great User Interface.",
+      "* Developed and Showcased web application using React.js, firebase, Tailwind CSS, Redux Toolkit ,node JS ,yarn .",
+      "* Implemented CRUD operations for the admin, directly from the web app.",
+      "* Implemented responsive design and ensuring great User Interface.",
       "* Fetching data from firebase and showing data on our website",
-      "* Hosting the website to insure that it's functioning properly ",
+      "* Hosted the website to insure that it's functioning properly",
     ],
   },
-
 ];
 
 const testimonials = [
